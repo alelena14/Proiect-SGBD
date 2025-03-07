@@ -1,6 +1,29 @@
-# Proiect-SGBD
-Modelul de date gestionează informații despre cărțile unui magazin online. Aceste cărți prezintă date precum limba în care au fost scrise, numărul de pagini, prețul, etc. Fiecare carte este scrisă de un autor și este publicată de către o editură. Acestea au un gen, fiecare gen având un subgen. Cărțile pot avea anumite recenzii lăsate de clienți.
+# Proiect-SGBD - Online Bookstore Database
 
-Comenzile sunt făcute de către clienți și conțin diverse informații: clientul care a făcut comanda, adresa acestuia, cărțile comandate, statusul comenzii cât și metoda în care aceasta va fi livrată. Statusul unei comenzi prezintă stadiul în care se află comanda.
+## 📌 Project Overview
+This project models a **database system** for managing information about books in an **online bookstore**. It includes details about books, authors, publishers, genres, customers, and orders. The database ensures efficient data management, allowing customers to access correct book details and track their orders.
 
-Modelul are o utilitate ridicată întrucât este nevoie de o bună gestionare a informațiilor unei cărți pentru ca un client să aibă detaliile corecte la îndemână. De asemenea, informațiile despre comenzile date trebuie să fie bine păstrate și revizuite în vederea eficienței la livrarea coletului și o continuă cooperare cu clienții.
+## 🚀 Features
+- Store and manage **book details** (language, page count, price, etc.).
+- Track **authors** and **publishers**.
+- Categorize books into **genres** and **subgenres**.
+- Manage **customer reviews** for books.
+- Process **customer orders**, including delivery status and methods.
+- Store **customer information** (name, address, order history).
+
+## 📂 Technologies Used
+- **SQL**
+- **Database Management System (DBMS)**
+- **Normalization & Indexing** for optimized queries
+- **Stored Procedures & Triggers** for automation
+
+## 🛠 Database Schema Overview
+The database consists of multiple tables:
+- `books` - Stores book information (title, price, language, pages, etc.).
+- `authors` - Stores author details.
+- `publishers` - Manages publishers.
+- `genres` - Contains book categories and subcategories.
+- `customers` - Stores customer details and order history.
+- `orders` - Tracks customer orders, statuses, and delivery methods.
+- `reviews` - Stores customer reviews for books.
+
